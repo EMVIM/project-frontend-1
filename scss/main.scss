@@ -1,3 +1,74 @@
+@import "./variables";
 @import "./reset";
 @import "./init";
-@import "./variables";
+
+/* Section profile */
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.2em;
+}
+
+button {
+  padding: 0.5em 0.7em;
+  display: inline;
+}
+
+.profile {
+  width: 32rem;
+  position: absolute;
+  color: $white;
+  img {
+    width: 12rem;
+  }
+  &__head {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-primary;
+    gap: 0.7em;
+    span {
+      background-color: $color-span;
+      color: $dark;
+      padding: 0.5em 1.5em;
+      align-self: flex-start;
+      font-weight: bold;
+    }
+    img {
+      border-radius: 50%;
+      border: 0.2em solid $color-button;
+    }
+    button:nth-child(1) {
+      background: $color-button;
+      color: $dark;
+    }
+    button:nth-child(2) {
+      border: 0.1em solid $color-button;
+      color: $color-button;
+    }
+    .social {
+      a {
+        font-size: 1.5em;
+      }
+    }
+  }
+  &__skills {
+    background-color: $color-secondary;
+    padding: 2em;
+    h2 {
+      margin-bottom: 0.5em;
+      font-weight: 600;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
+      li {
+        border: 0.1em solid $white;
+        padding: 0.2em 0.5em;
+      }
+    }
+  }
+}

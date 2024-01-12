@@ -1,1 +1,231 @@
-/*# sourceMappingURL=main.css.map */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+}
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+img,
+embed,
+object,
+audio,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #28223f;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section profile */
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+button {
+  padding: 0.5em 0.7em;
+  display: inline;
+}
+
+.profile {
+  width: 32rem;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.7450980392);
+}
+.profile img {
+  width: 12rem;
+}
+.profile__head {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #231e39;
+  gap: 0.7em;
+}
+.profile__head span {
+  background-color: #febb0b;
+  color: #231e39;
+  padding: 0.5em 1.5em;
+  align-self: flex-start;
+  font-weight: bold;
+}
+.profile__head img {
+  border-radius: 50%;
+  border: 0.2em solid #03bfcb;
+}
+.profile__head button:nth-child(1) {
+  background: #03bfcb;
+  color: #231e39;
+}
+.profile__head button:nth-child(2) {
+  border: 0.1em solid #03bfcb;
+  color: #03bfcb;
+}
+.profile__head .social a {
+  font-size: 1.5em;
+}
+.profile__skills {
+  background-color: #1f1a36;
+  padding: 2em;
+}
+.profile__skills h2 {
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+.profile__skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+.profile__skills ul li {
+  border: 0.1em solid rgba(255, 255, 255, 0.7450980392);
+  padding: 0.2em 0.5em;
+}/*# sourceMappingURL=main.css.map */
